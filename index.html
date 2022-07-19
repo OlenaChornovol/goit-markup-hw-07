@@ -24,7 +24,6 @@
             <span class="header-logo--blue">Web</span>Studio</a
           >
           <ul class="header-nav-list">
-            <!--class="nav list"-->
             <li class="header-nav-item">
               <a href="./index.html" class="header-nav-current">Студия</a>
             </li>
@@ -40,7 +39,7 @@
           <li class="header-auth-item">
             <a href="mailto:info@devstudio.com">
               <svg class="header-auth-icon" width="16" height="12">
-                <use xlink:href="./images/icons.svg#email" class="email"></use>
+                <use class="email" xlink:href="./images/icons.svg#email"></use>
               </svg>
               info@devstudio.com
             </a>
@@ -73,28 +72,28 @@
         <h2 class="visually-hidden">Особенности</h2>
         <div class="features-container">
           <ul class="features-list">
-            <li class="features-item icon-antena">
+            <li class="features-item features-item__antena">
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-item icon-clock">
+            <li class="features-item features-item__clock">
               <h3 class="features-title">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-item icon-diagram">
+            <li class="features-item features-item__diagram">
               <h3 class="features-title">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-item icon-astronaut">
+            <li class="features-item features-item__astronaut">
               <h3 class="features-title">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -105,7 +104,7 @@
         </div>
       </section>
       <!--Внизу під before виліз зайвий піксель-->
-      <section class="we-do section">
+      <section class="we-do-section">
         <div class="we-do-container">
           <h2 class="we-do-title">Чем мы занимаемся</h2>
           <ul class="we-do-list">
@@ -365,7 +364,6 @@
           </ul>
         </div>
         <div class="footer-social">
-          <!--class="footer-icons"-->
           <h2>присоединяйтесь</h2>
           <ul class="footer-social-list">
             <!--class="list-footer"-->
@@ -405,7 +403,12 @@
           <p class="footer-form--text">подпишитесь на рассылку</p>
           <form name="email-form" autocomplete="on" novalidate>
             <label for="email">
-              <input type="email" name="email" placeholder="E-mail" />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </label>
             <button type="submit">
               <span class="footer-form-send"> Подписаться </span>
@@ -497,7 +500,7 @@
                 <a href="/">Условия договора</a>
               </span>
             </label>
-            <button type="modal-form-submit">
+            <button type="submit">
               <span class="modal-form-button">Отправить</span>
             </button>
           </form>

@@ -36,12 +36,13 @@
 .features-item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-}
-.features-item:nth-child(4n) {
-  margin-right: 0;
-}
-.features-item:nth-last-child(-n + 4) {
-  margin-bottom: 0;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+  &:nth-last-child(-n + 4) {
+    margin-bottom: 0;
+  }
 }
 .features-item::before {
   display: block;
@@ -57,15 +58,15 @@
 .features-item::before:last-child {
   margin-right: 0;
 }
-.icon-antena::before {
+.features-item__antena::before {
   background-image: url("../images/antenna\ 1.svg");
 }
-.icon-clock::before {
+.features-item__clock::before {
   background-image: url("../images/clock\ 1.svg");
 }
-.icon-diagram::before {
+.features-item__diagram::before {
   background-image: url("../images/diagram\ 1.svg");
 }
-.icon-astronaut::before {
+.features-item__astronaut::before {
   background-image: url("../images/astronaut\ 1.svg");
 }

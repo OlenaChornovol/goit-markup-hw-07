@@ -27,9 +27,6 @@
 .footer-contacts {
   display: inline-block;
 }
-/*.footer-container .footer-list {
-    display: block;
-  }*/
 .footer-contacts .footer-logo {
   display: block;
   color: var(--accent-white-color);
@@ -67,13 +64,13 @@
 .footer a:focus {
   color: var(--accent-color);
 }
-/*footer-icons    icons in footer*/
+/*icons in footer*/
 .footer-social {
   display: inline-block;
   margin-left: 70px;
   padding-top: 0;
 }
-.footer-container h2 {
+.footer-social h2 {
   color: var(--accent-white-color);
   font-weight: 700;
   font-size: 14px;
@@ -94,19 +91,19 @@
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-icons:last-child {
-  margin-right: 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-icons:hover,
-.footer-social-icons:focus {
-  border-radius: 50%;
-  background-color: var(--accent-color);
-}
 
+  &:last-child {
+    margin-right: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background-color: var(--accent-color);
+  }
+}
 .footer-social-link {
   display: flex;
   align-items: center;
@@ -117,16 +114,17 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-social--icon {
   fill: var(--accent-white-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-icons:hover .footer-social--icon,
-.footer-social-icons:focus .footer-social--icon {
-  fill: var(--accent-white-color);
-}
 
-/*форма підписки for new <div class="footer-form">*/
+  .footer-social-icons:hover &,
+  .footer-social-icons:focus & {
+    fill: var(--accent-white-color);
+  }
+}
+/*форма підписки */
 .footer-form {
   margin-top: 12px;
   margin-left: 93px;
@@ -169,7 +167,6 @@
   background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -178,11 +175,12 @@
   text-align: center;
   color: var(--accent-white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-form button:hover,
-.footer-form button:focus {
-  background-color: rgba(24, 140, 232, 1);
-  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(24, 140, 232, 1);
+    cursor: pointer;
+  }
 }
 .footer-form-send {
   display: inline-flex;

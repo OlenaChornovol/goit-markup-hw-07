@@ -2,6 +2,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+
+  & img {
+    width: 270px;
+    display: block;
+  }
 }
 .team-container {
   width: 1200px;
@@ -28,10 +33,7 @@
   list-style: none;
   justify-content: center;
 }
-.team-section img {
-  width: 270px;
-  display: block;
-}
+
 .team-item {
   background-color: var(--accent-white-color);
   width: calc((100% - 90px) / 4);
@@ -39,41 +41,45 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.team-item:nth-child(4n) {
-  margin-right: 0;
-}
-.team-item:nth-last-child(-n + 4) {
-  margin-bottom: 0;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+  &:nth-last-child(-n + 4) {
+    margin-bottom: 0;
+  }
 }
 .team-title {
   padding: 30px 0;
   text-align: center;
 }
-.team-section h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  margin-top: 0;
-  margin-bottom: 10px;
-  letter-spacing: 0.42px;
-  color: var(--primary-text-color);
-}
-.team-section p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.42px;
-  color: var(--title-text-color);
-  margin-top: 0;
-  margin-bottom: 16px;
+.team-title {
+  & h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0.42px;
+    color: var(--primary-text-color);
+  }
+  & p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.42px;
+    color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
 }
 /*team-icons*/
 .team-icons {
   margin-right: 10px;
-}
-.team-icons:last-child {
-  margin-right: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .team-link {
   display: flex;
@@ -84,10 +90,11 @@
   border-radius: 50%;
   background-color: var(--accent-white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-link:hover,
-.team-link:focus {
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 a .team-icon--social {
   fill: #afb1b8;

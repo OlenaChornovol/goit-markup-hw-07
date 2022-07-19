@@ -108,7 +108,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-
 .header-logo--blue {
   color: var(--accent-color);
 }
@@ -127,7 +126,6 @@ body {
   margin-right: 50px;
   padding: 32px 0;
 }
-
 .header-nav-item:last-child {
   margin-right: 0;
 }
@@ -142,9 +140,7 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-nav-list a:hover,
-.header-nav-list a:focus {
+.header-nav-list a:hover, .header-nav-list a:focus {
   color: var(--accent-color);
 }
 
@@ -190,14 +186,8 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-auth-list a:hover,
-.header-auth-list a:focus {
+.header-auth-list a:hover, .header-auth-list a:focus {
   color: var(--accent-color);
-}
-
-.header-auth-nav a:hover {
-  fill: var(--accent-color);
 }
 
 .header-auth-list .header-auth-item + .header-auth-item {
@@ -254,9 +244,6 @@ a:focus .header-auth-icon {
   display: inline-block;
 }
 
-/*.footer-container .footer-list {
-    display: block;
-  }*/
 .footer-contacts .footer-logo {
   display: block;
   color: var(--accent-white-color);
@@ -304,14 +291,14 @@ a:focus .header-auth-icon {
   color: var(--accent-color);
 }
 
-/*footer-icons    icons in footer*/
+/*icons in footer*/
 .footer-social {
   display: inline-block;
   margin-left: 70px;
   padding-top: 0;
 }
 
-.footer-container h2 {
+.footer-social h2 {
   color: var(--accent-white-color);
   font-weight: 700;
   font-size: 14px;
@@ -337,7 +324,6 @@ a:focus .header-auth-icon {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-social-icons:last-child {
   margin-right: 0;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -346,9 +332,7 @@ a:focus .header-auth-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-social-icons:hover,
-.footer-social-icons:focus {
+.footer-social-icons:hover, .footer-social-icons:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
 }
@@ -376,13 +360,11 @@ a:focus .header-auth-icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-social-icons:hover .footer-social--icon,
-.footer-social-icons:focus .footer-social--icon {
+.footer-social-icons:hover .footer-social--icon, .footer-social-icons:focus .footer-social--icon {
   fill: var(--accent-white-color);
 }
 
-/*форма підписки for new <div class="footer-form">*/
+/*форма підписки */
 .footer-form {
   margin-top: 12px;
   margin-left: 93px;
@@ -491,9 +473,7 @@ a:focus .header-auth-icon {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-form button:hover,
-.footer-form button:focus {
+.footer-form button:hover, .footer-form button:focus {
   background-color: rgb(24, 140, 232);
   cursor: pointer;
 }
@@ -558,9 +538,7 @@ a:focus .header-auth-icon {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.hero-button:hover,
-.hero-button:focus {
+.hero-button:hover, .hero-button:focus {
   background-color: rgb(24, 140, 232);
   cursor: pointer;
 }
@@ -612,11 +590,9 @@ a:focus .header-auth-icon {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
-
 .features-item:nth-child(4n) {
   margin-right: 0;
 }
-
 .features-item:nth-last-child(-n+4) {
   margin-bottom: 0;
 }
@@ -637,19 +613,19 @@ a:focus .header-auth-icon {
   margin-right: 0;
 }
 
-.icon-antena::before {
+.features-item__antena::before {
   background-image: url("../images/antenna 1.svg");
 }
 
-.icon-clock::before {
+.features-item__clock::before {
   background-image: url("../images/clock 1.svg");
 }
 
-.icon-diagram::before {
+.features-item__diagram::before {
   background-image: url("../images/diagram 1.svg");
 }
 
-.icon-astronaut::before {
+.features-item__astronaut::before {
   background-image: url("../images/astronaut 1.svg");
 }
 
@@ -692,11 +668,9 @@ a:focus .header-auth-icon {
   width: 370px;
   margin-right: 30px;
 }
-
 .we-do-item:nth-child(3n) {
   margin-right: 0;
 }
-
 .we-do-item:nth-last-child(-n+4) {
   margin-bottom: 0;
 }
@@ -705,7 +679,7 @@ a:focus .header-auth-icon {
   text-decoration: none;
 }
 
-.we-do img {
+.we-do-section img {
   width: 370px;
 }
 
@@ -721,7 +695,6 @@ a:focus .header-auth-icon {
       -ms-flex-align: end;
           align-items: flex-end; /*вирівняла текст на ::before*/
 }
-
 .we-do-box::before {
   /*темно-сіра заслонка*/
   display: inline-block;
@@ -746,6 +719,10 @@ a:focus .header-auth-icon {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+}
+.team-section img {
+  width: 270px;
+  display: block;
 }
 
 .team-container {
@@ -781,11 +758,6 @@ a:focus .header-auth-icon {
           justify-content: center;
 }
 
-.team-section img {
-  width: 270px;
-  display: block;
-}
-
 .team-item {
   background-color: var(--accent-white-color);
   width: calc((100% - 90px) / 4);
@@ -794,11 +766,9 @@ a:focus .header-auth-icon {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-item:nth-child(4n) {
   margin-right: 0;
 }
-
 .team-item:nth-last-child(-n+4) {
   margin-bottom: 0;
 }
@@ -808,7 +778,7 @@ a:focus .header-auth-icon {
   text-align: center;
 }
 
-.team-section h3 {
+.team-title h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -817,8 +787,7 @@ a:focus .header-auth-icon {
   letter-spacing: 0.42px;
   color: var(--primary-text-color);
 }
-
-.team-section p {
+.team-title p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -832,7 +801,6 @@ a:focus .header-auth-icon {
 .team-icons {
   margin-right: 10px;
 }
-
 .team-icons:last-child {
   margin-right: 0;
 }
@@ -854,9 +822,7 @@ a:focus .header-auth-icon {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.team-link:hover,
-.team-link:focus {
+.team-link:hover, .team-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -911,7 +877,6 @@ a .team-icon--social {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
 }
-
 .customers-item:last-child {
   margin-right: 0;
 }
@@ -920,6 +885,9 @@ a .team-icon--social {
   fill: #afb1b8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers-item-link:hover .customer-icon, .customers-item-link:focus .customer-icon {
+  fill: var(--accent-color);
 }
 
 .customers-item-link {
@@ -939,15 +907,8 @@ a .team-icon--social {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.customers-item-link:hover,
-.customers-item-link:focus {
+.customers-item-link:hover, .customers-item-link:focus {
   border: 1px solid var(--accent-color);
-}
-
-.customers-item-link:hover .customer-icon,
-.customers-item-link:focus .customer-icon {
-  fill: var(--accent-color);
 }
 
 .portfolio-section {
@@ -1184,11 +1145,6 @@ a .team-icon--social {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal--close:hover svg,
-.modal--close:focus svg {
-  fill: var(--accent-color);
-}
-
 .modal--close svg {
   top: 50%;
   left: 50%;
@@ -1197,6 +1153,11 @@ a .team-icon--social {
   width: 18px;
   height: 18px;
   margin: 0;
+}
+
+.modal--close:hover svg,
+.modal--close:focus svg {
+  fill: var(--accent-color);
 }
 
 /*форма у модальному вікні*/
@@ -1263,7 +1224,6 @@ a .team-icon--social {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-form-input input:focus {
   outline: none;
   border: 1px solid var(--accent-color);
@@ -1290,41 +1250,28 @@ textarea {
   letter-spacing: 0.01em;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 textarea:focus {
   outline: none;
   border: 1px solid var(--accent-color);
 }
-
-.modal-form:focus-within > textarea {
-  border-color: var(--accent-color);
-}
-
 textarea::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 textarea::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 textarea:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 textarea::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form--agreement span {
-  padding-top: 5px;
-  font-weight: 400;
-  line-height: 1.71;
-  color: #757575;
+.modal-form:focus-within > textarea {
+  border-color: var(--accent-color);
 }
 
 .modal-form--agreement {
@@ -1336,6 +1283,12 @@ textarea::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; /*клік на весь текст Погодження*/
+}
+.modal-form--agreement span {
+  padding-top: 5px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: #757575;
 }
 
 .modal-form--agreement input[type=checkbox] {
@@ -1392,7 +1345,6 @@ textarea::placeholder {
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-form-checkbox--agreement a:hover {
   text-decoration: none;
 }
@@ -1411,7 +1363,6 @@ textarea::placeholder {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-form button:hover {
   background-color: rgb(24, 140, 232);
   cursor: pointer;
