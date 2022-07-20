@@ -160,12 +160,12 @@ img {
   color: var(--accent-color);
 }
 
-.header-nav__list .header-nav__current {
+.header-nav__list .header-nav--current {
   color: var(--accent-color);
   background-color: var(--accent-white-color);
 }
 
-.header-nav__current::after {
+.header-nav--current::after {
   position: absolute;
   content: "";
   width: 100%;
