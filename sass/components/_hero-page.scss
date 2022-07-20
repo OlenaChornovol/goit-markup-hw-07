@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-.hero-container {
+.hero__container {
   display: block;
   width: 1200px;
   padding-left: 15px;
@@ -33,7 +33,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero-button {
+.hero__button {
   /*кнопочка відриття модального вікна*/
   background-color: var(--accent-color);
   color: var(--accent-white-color);
